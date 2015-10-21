@@ -31,8 +31,8 @@ get_header();
                 <div class="col-md-3 col-xs-6 chosen-sort"> 
                     <select class="sort-order chosen-select" id="project_orderby" name="orderby" 
                         data-placeholder="<?php _e("Orderby", ET_DOMAIN); ?>" data-chosen-disable-search="1" data-chosen-width="90%" style="display: none;">
-                        <option value="date"><?php _e('Newest Projects first',ET_DOMAIN);?></option>
                         <option value="et_featured"><?php _e('Featured Projects first',ET_DOMAIN);?></option>
+                        <option value="date"><?php _e('Newest Projects first',ET_DOMAIN);?></option>
                         <option value="et_budget"><?php _e('Budget Projects first',ET_DOMAIN);?></option>
                     </select>                 
                 </div>
