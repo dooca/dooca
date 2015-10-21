@@ -1238,7 +1238,7 @@ function fre_append_post_status_list() {
 add_action('admin_footer-post.php', 'fre_append_post_status_list');
 
 
-add_filter( 'get_avatar', 'filter_user_avatar', 11, 5 );
+/*add_filter( 'get_avatar', 'filter_user_avatar', 11, 5 );*/
 function filter_user_avatar($avatar, $id_or_email, $size, $default, $alt){
     $default = '';
     $user = false;
