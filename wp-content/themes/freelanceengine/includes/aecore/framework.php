@@ -24,7 +24,7 @@ class AppEngine extends AE_Base
         /**
          * filter user avatar, replace by user upload avatar image
          */
-        $this->add_filter('get_avatar', 'get_avatar', 10, 5); 
+        /** $this->add_filter('get_avatar', 'get_avatar', 10, 5); */ 
         
         /**
          * add ajax when user request thumbnail form view carousels
